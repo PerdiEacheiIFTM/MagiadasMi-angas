@@ -1,0 +1,63 @@
+ <!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Magia das Miçangas</title>
+  <link rel="stylesheet" href="estilo.css">
+</head>
+<body>
+  <header>
+    <h1>✨ Magia das Miçangas ✨</h1>
+    <p>Bijuterias artesanais com amor</p>
+  </header>
+
+  <nav>
+    <ul class="menu">
+      <li><a href="#semana">Itens da Semana</a></li>
+      <li><a href="#carrinho">Carrinho</a></li>
+      <li><a href="#personalizado">Pedido Personalizado</a></li>
+      <li><a href="#promocoes">Promoções</a></li>
+    </ul>
+  </nav>
+
+  <section id="semana" class="destaques">
+    <h2>🌟 Itens da Semana</h2>
+    <div id="lista-produtos" class="produtos"></div>
+  </section>
+
+  <section id="carrinho" class="carrinho">
+    <h2>🛒 Carrinho</h2>
+    <ul id="lista-carrinho"></ul>
+    <p id="total">Total: R$ 0,00</p>
+    <button id="enviar-whats" onclick="enviarWhatsApp()">Enviar pedido no WhatsApp</button>
+  </section>
+
+  <section id="promocoes" class="promocoes">
+    <h2>🔥 Promoções</h2>
+    <div id="lista-promocoes" class="produtos"></div>
+  </section>
+
+  <section id="personalizado" class="pedido-personalizado">
+    <h2>💬 Pedido Personalizado</h2>
+    <form id="form-personalizado">
+      <label>Nome:</label><br>
+      <input type="text" id="nomeCliente" required><br><br>
+
+      <label>Casa:</label><br>
+      <input type="text" id="casaCliente"><br><br>
+
+      <label>Mensagem:</label><br>
+      <textarea id="mensagemPedido" rows="4" required></textarea><br><br>
+
+      <button type="submit">Enviar pelo WhatsApp</button>
+    </form>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Magia das Miçangas - Todos os direitos reservados</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
