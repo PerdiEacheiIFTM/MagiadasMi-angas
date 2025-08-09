@@ -15,7 +15,7 @@ const produtos = [
     imagem: "midias/WhatsApp Image 2025-08-09 at 17.02.22.jpeg"
   },
   {
-    nome: "Kit dourado(colar,pulseira,anel)",
+    nome: "Kit dourado(colar,\npulseira,anel)",
     preco: 15.00,
     imagem: "midias/WhatsApp Image 2025-08-09 at 17.02.23.jpeg"
   }
@@ -142,4 +142,5 @@ document.getElementById("form-personalizado").addEventListener("submit", functio
 
 renderizarProdutos();
 renderizarPromocoes();
+
 
