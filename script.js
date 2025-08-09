@@ -5,7 +5,7 @@ const produtos = [
     imagem: "midias/WhatsApp Image 2025-08-09 at 14.48.19.jpeg "
   },
   {
-    nome: "Chaveiro 2 Cor",
+    nome: "Chaveiro 2 Cores",
     preco: 9.00,
     imagem: "midias/WhatsApp Image 2025-08-09 at 14.48.20 (1).jpeg"
   },
@@ -24,14 +24,14 @@ const produtos = [
 const promocoes = [
   {
     nome: "Kit Anel Meninas Super-Poderosas",
-    preco: 5.00,
-    precoOriginal: 3.00,
+    preco: 3.00,
+    precoOriginal: 5.00,
     imagem: "midias/powerrangers.jpeg"
   },
   {
     nome: "Kit Anel e Pulseira Amarelo",
-    preco: 6.00,
-    precoOriginal: 4.00,
+    preco: 4.00,
+    precoOriginal: 6.00,
     imagem: "midias/WhatsApp Image 2025-08-09 at 14.48.21.jpeg"
   }
 ];
@@ -142,3 +142,4 @@ document.getElementById("form-personalizado").addEventListener("submit", functio
 
 renderizarProdutos();
 renderizarPromocoes();
+
